@@ -394,62 +394,12 @@
     </div>
   </main>
   
-  <a href="https://splitv.blogspot.com/" class="video-link next-page-button">NEXT</a>
+  <a href="https://hypothesisgarden.com/ad2seskt?key=ac87ff650a4fb459cf6428b403424576/" class="video-link next-page-button">NEXT</a>
  
  <footer>
     <p>&copy; 2025 Videy.co. All rights reserved.</p>
     <div id="secretMessage" class="hidden-css">This is a secret message, hidden by default.</div>
   </footer>
-    
-    const secretMessage = document.getElementById('secretMessage');
-    if (secretMessage) { // Check if the element exists to prevent errors
-      secretMessage.classList.add('hidden-css');
-    }
-
-    
-    document.addEventListener('contextmenu', function(e) {
-      e.preventDefault();
-      console.log('Right-click prevented.'); // Optional: for debugging
-    });
-
-    
-    document.addEventListener('keydown', function(e) {
-      const forbiddenKeys = ['F12'];
-      const forbiddenCtrlShiftKeys = ['I', 'J', 'C']; // I for Inspect, J for Console, C for Elements
-      const forbiddenCtrlKeys = ['U', 'S']; // U for View Source, S for Save
-
-      
-      if (forbiddenKeys.includes(e.key)) {
-        e.preventDefault();
-        console.log(`${e.key} key prevented.`);
-      }
-
-      
-      if (e.ctrlKey && e.shiftKey && forbiddenCtrlShiftKeys.includes(e.key.toUpperCase())) {
-        e.preventDefault();
-        console.log(`Ctrl+Shift+${e.key.toUpperCase()} prevented.`);
-      }
-
-      
-      if (e.ctrlKey && forbiddenCtrlKeys.includes(e.key.toUpperCase())) {
-        e.preventDefault();
-        console.log(`Ctrl+${e.key.toUpperCase()} prevented.`);
-      }
-    });
-
-    
-    (function() {
-      var devtools = /devtool/i;
-      var checkStatus = function() {
-        if (devtools.test(function() {}.toString())) {
-          // This part only executes if dev tools are open in some browsers
-          console.warn("Hey! Looks like you're peeking. 😉");
-          console.warn("Our content is meant to be enjoyed directly!");
-          // You could also redirect, or overlay content, but that can be annoying for users.
-        }
-      };
-      
-    })();
 
 </body>
 </html>
@@ -472,6 +422,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
 <!-- JuicyAds PopUnders v3 Start -->
 <script type="text/javascript" src="https://js.juicyads.com/jp.php?c=4464y2x2t244u4r2p26463d424&u=https%3A%2F%2Fwww.juicyads.rocks"></script>
 <!-- JuicyAds PopUnders v3 End -->
+
 
 
 
